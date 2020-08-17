@@ -27,7 +27,7 @@ There are multiple **+ (positive)** terminals that you can use to daisy-chain mu
 
 The three LEDs are wired in series, and share a common resistor (`R1`). The proper value for `R1` will vary depending on the specifications of your LED and the voltage of your power source.
 
-If your LEDs have a low enough voltage drop, you may be able to just bridge `R1` (or use a 0 ohm resistor) and use a 5V power source. The [amber LEDs I used][amber-leds] not light up at all this way however, and so I chose to use a 9V source instead.
+If your LEDs have a low enough voltage drop, you may be able to just bridge `R1` (or use a 0 ohm resistor) and use a 5V power source. The [amber LEDs I used][amber-leds] did not light up at all this way however, and so I chose to use a 9V source instead.
 
 You can use a [simple LED calculator][led-wizard] to help choose the right value for `R1`. In my case, using the datasheet for [my amber LEDs][amber-leds] I entered the following information into the calculator:
 
