@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name enc-led)(type KiCad)(uri ${KIPRJMOD}/enc-led.pretty)(options "")(descr ""))
+)
